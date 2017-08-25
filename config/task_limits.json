@@ -1,0 +1,26 @@
+{
+	"like": {
+		"delay_from": 12,
+		"delay_to": 20,
+		"max_ops": 600,
+		"wait_restart": 86400
+	},
+	"comment": {
+		"delay_from": 15,
+		"delay_to": 20,
+		"max_ops": 250,
+		"wait_restart": 86400
+	},
+	"follow": {
+		"delay_from": 3600,
+		"delay_to": 3800,
+		"max_ops": 800,
+		"wait_restart": 86400
+	},
+	"unfollow": {
+		"delay_from": 3600,	
+		"delay_to": 3800,
+		"max_ops": 800,
+		"wait_restart": 86400
+	}
+}
