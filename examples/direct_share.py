@@ -1,4 +1,4 @@
-from InstagramAPI import InstagramAPI
+from bot.lib.InstagramAPI import InstagramAPI
 user,pwd = '', ''                           #your credentials
 InstagramAPI = InstagramAPI(user,pwd)       
 InstagramAPI.login()                        # login

@@ -3,9 +3,10 @@
 #
 # Use text editor to edit the script and type in valid Instagram username/password
 
-from InstagramAPI import InstagramAPI
 import json
 import time
+
+from bot.lib.InstagramAPI import InstagramAPI
 
 api = InstagramAPI("christianf21", "Jackie2120652240")
 api.login()  # login
@@ -16,13 +17,13 @@ def print_to_file(data, name="output.txt"):
         json.dump(api.LastJson, outfile)
 
 
-tag = "surf"
+tag = "enduro"
 counter = 1
-like_delay = 12
+like_delay = 15
 
 api.getHashtagFeed(tag)
 
-while counter <= 300:
+while counter <= 400:
 
     media_id = api.LastJson
 

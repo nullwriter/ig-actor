@@ -5,11 +5,11 @@
 
 import os
 import time
-import random
 from os import listdir
 from os.path import isfile, join
 from random import randint
-from InstagramAPI import InstagramAPI
+
+from bot.lib.InstagramAPI import InstagramAPI
 
 PhotoPath = "~/igphoto/" # Change Directory to Folder with Pics that you want to upload
 IGUSER    = "IGUsername" # Change to your Instagram USERNAME

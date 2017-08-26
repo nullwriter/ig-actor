@@ -1,6 +1,6 @@
 import json
 
-from InstagramAPI import InstagramAPI
+from bot.lib.InstagramAPI import InstagramAPI
 
 
 class DownloadThread():
