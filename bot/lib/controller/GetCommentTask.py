@@ -3,6 +3,7 @@ import re
 from FileLogger import FileLogger as FL
 import datetime
 
+
 class GetCommentTask:
 
     def __init__(self, task, name="extract-comment"):

@@ -29,6 +29,9 @@ class Task:
 
         self.task.init_task()
 
+    """
+    Checks the amount of operations with the limits set in the config json
+    """
     def check_ops_limit(self):
 
         sleep_time = self.limits[self.task_name]['wait_restart']
@@ -42,5 +45,8 @@ class Task:
 
         return True
 
+    """
+    Returns a random int between the set time limits in the config json
+    """
     def get_time_delay(self):
         return random.randint(int(self.limits[self.task_name]['delay_from']), int(self.limits[self.task_name]['delay_to']))
