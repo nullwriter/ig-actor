@@ -1,6 +1,6 @@
 # IG-Actor Bot
 
-Simple instagram bot written in python for auto Liking and Commenting, also for retrieving comments and saving them to files (mostly,for later use in commenting). Access to Instagrams API is based on https://github.com/LevPasha/Instagram-API-python.git project.
+Simple instagram bot written in python for automating tasks. Access to Instagram's API is based on https://github.com/LevPasha/Instagram-API-python.git project.
 
 NOTE: To successfully parse for a long time you should verify your phone number in your Instagram account. 
 The new fake Instagram account with an unverified phone number after ~ 1-24 hours could not do any requests. All requests will be redirected to the page instagram.com/challenge
