@@ -19,7 +19,7 @@ The new fake Instagram account with an unverified phone number after ~ 1-24 hour
 
     `pip install -r requirements.txt`
 
-4. Modify bot/config/account.dist.txt into account.txt and add your own username and password
+4. Modify `bot/config/account.dist.txt` into `account.txt` and add your own username and password
 
 5. Navigate to the directory /bot/
 
