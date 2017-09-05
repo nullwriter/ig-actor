@@ -1,5 +1,5 @@
 *.pyc
 .idea/
-.Ds_Store
+.DS_Store
 account.txt
 Extracted*.*
