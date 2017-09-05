@@ -13,7 +13,7 @@ The new fake Instagram account with an unverified phone number after ~ 1-24 hour
 
 2. Navigate to the directory
 
-    `cd Instagram-API-python`
+    `cd ig-actor`
 
 3. Install the dependencies
 
