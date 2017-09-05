@@ -1,5 +1,13 @@
+enduro
+earth
+mountain
+party
+pets
+house
+pool
+miami
+london
 dog
 cat
-enduro
 beach
 instalike

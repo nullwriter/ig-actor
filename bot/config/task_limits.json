@@ -11,6 +11,12 @@
 		"max_ops": 250,
 		"wait_restart": 86400
 	},
+	"extract-comment": {
+		"delay_from": 8,
+		"delay_to": 12,
+		"max_ops": 550,
+		"wait_restart": 86400
+	},
 	"follow": {
 		"delay_from": 3600,
 		"delay_to": 3800,
