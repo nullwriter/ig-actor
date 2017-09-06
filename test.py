@@ -8,7 +8,7 @@ import time
 
 from bot.lib.InstagramAPI import InstagramAPI
 
-api = InstagramAPI("christianf21", "Jackie2120652240")
+api = InstagramAPI("", "")
 api.login()  # login
 
 
